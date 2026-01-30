@@ -5,7 +5,7 @@ authors = ["CryptoKage2306 <26vivek06@gmail.com>"]
 edition = "2021"
 description = "A custom decimal type for CosmWasm smart contracts with 6 decimal places and full Decimal compatibility"
 license = "MIT"
-repository = "https://github.com/yourusername/cosmwasm-custom-decimal"
+repository = "https://github.com/CryptoKage2306/cosmwasm-custom-decimal"
 keywords = ["cosmwasm", "decimal", "blockchain", "smart-contracts"]
 categories = ["cryptography::cryptocurrencies", "mathematics"]
 
