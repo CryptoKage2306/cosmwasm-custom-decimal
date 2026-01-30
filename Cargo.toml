@@ -1,0 +1,23 @@
+[package]
+name = "cosmwasm-custom-decimal"
+version = "0.1.0"
+authors = ["CryptoKage2306 <26vivek06@gmail.com>"]
+edition = "2021"
+description = "A custom decimal type for CosmWasm smart contracts with 6 decimal places and full Decimal compatibility"
+license = "MIT"
+repository = "https://github.com/yourusername/cosmwasm-custom-decimal"
+keywords = ["cosmwasm", "decimal", "blockchain", "smart-contracts"]
+categories = ["cryptography::cryptocurrencies", "mathematics"]
+
+[dependencies]
+cosmwasm-std = { version = "2.0", default-features = false, features = ["std"] }
+cosmwasm-schema = "2.0"
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+thiserror = "1.0"
+
+[dev-dependencies]
+serde_json = "1.0"
+
+[[example]]
+name = "usage"
+path = "examples/usage.rs"
